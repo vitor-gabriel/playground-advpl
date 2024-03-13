@@ -1,0 +1,16 @@
+<div class="po-wrapper">
+    <po-menu [p-menus]="menus" [p-collapsed]="false">
+        <div *p-menu-header-template class="po-p-2 po-font-title sample-menu-header-text-color">
+            <p>Welcome!</p>
+            <p>
+                <b>
+                    AdvPLer
+                </b>
+            </p>
+        </div>
+    </po-menu>
+    <po-toolbar p-title="PO - ToolBar" [p-show-notification]="false"></po-toolbar>
+    <po-page-default p-title="Editor AdvPL">
+        <app-text-editor></app-text-editor>
+    </po-page-default>
+</div>
