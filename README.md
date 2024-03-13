@@ -26,7 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Projeto gerado com os comandos:
+## Projeto gerado com o comando:
 
-ng new playground-advpl --standalone false --routing --skip-install
-npm install
+`ng new playground-advpl --standalone false --routing --skip-install`
